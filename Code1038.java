@@ -3,9 +3,9 @@ public class Code1038 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int data=sc.nextInt();
-        int gewei=data%10;
-        int shiwei=data%100/10;
-        int baiwei=data/100;
+        int gewei=data%10;//个位
+        int shiwei=data%100/10;//十位
+        int baiwei=data/100;//百位
         if(data<0) {
             return;
         }
